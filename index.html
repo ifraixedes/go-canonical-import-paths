@@ -1,40 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>ifraixedes Go</title>
-</head>
-<body>
-  <h1>ifraixedes' Go sources</h1>
-  <p>This page contains references to some personal Go sources; there are packages, binaries an examples.</p>
-  <h2>Go packages</h2>
-  <p>Currently the following libraries packages are available (import path => repository).</p>
-  <ul>
-    <li><b>go.fraixed.es/errors</b> => <a href="https://github.com/ifraixedes/go-errors" target="_blank">github.com/ifraixedes/go-errors</a></li>
-    <li><b>go.fraixed.es/hmacval</b> => <a href="https://github.com/ifraixedes/go-hmac-validator" target="_blank">github.com/ifraixedes/go-hmac-validator</a></li>
-  </ul>
-  <h2>Go binaries</h2>
-  <p>The following binaries packages are available (install/import path => repository).</p>
-  <ul>
-    <li>
-      <dl>
-        <dt>Binaries</dt>
-        <dd><b>go.fraixed.es/onepagestaticsite/cmd/opss</b> => <a href="https://github.com/ifraixedes/one-page-static-site/tree/master/cmd/opss" target="_blank">github.com/ifraixedes/one-page-static-site/cmd/opss</a></dd>
-        <dd><b>go.fraixed.es/storj/sntools/dbcleaner</b> => <a href="https://github.com/ifraixedes/storj-storagenode-tools/tree/master/dbcleaner" target="_blank">github.com/ifraixedes/storj-storagenode-tools/dbcleaner</a></dd>
-        <dt>Public Packages</dt>
-        <dd><b>go.fraixed.es/onepagestaticsite</b> => <a href="https://github.com/ifraixedes/one-page-static-site" target="_blank">github.com/ifraixedes/one-page-static-site</a></dd>
-        <dd><b>go.fraixed.es/storj/sntools</b> => <a href="https://github.com/ifraixedes/storj-storagenode-tools" target="_blank">github.com/ifraixedes/storj-storagenode-tools</a></dd>
-      </dl>
-    </li>
-  </ul>
-  <h2>Go examples</h2>
-  <p>This section contain a list implementations which are examples of fictional requirements, proof of concepts, etc.</p>
-  <ul>
-    <li>Go implementation of Payments API designed with <a href="https://www.openapis.org" target="_blank">OpenAPI</a> [<a href="https://github.com/ifraixedes/go-payments-api-example" target="_blank">repo</a>]</li>
-    <li>Go microservice implementation of a fictional requirements document which uses HTTP and NSQ as a transport [<a href="https://github.com/ifraixedes/go-ms-http-nsq-example" target="_blank">repo</a>]</li>
-    <li>Simple tool based in a fictional requirements document which uses the Go CSV reader of the standard library [<a href="https://github.com/ifraixedes/go-csv-reader-example" target="_blank">repo</a>]</li>
-    <li>Some personal interest in knowing a bit more of machine learning and involving Go in it [<a href="https://github.com/ifraixedes/statistics-for-machine-learning-go" target="_blank">repo</a>]</li>
-    <li>A personal collection of Go runnable snippets for learning purpose [<a href="https://github.com/ifraixedes/go-runnable-snippets" target="_blank">repo</a>]</li>
-  </ul>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ifraixedes Go</title>
+  </head>
+  <body>
+    <h1>ifraixedes' Go sources</h1>
+    <p>
+      This page contains references to some personal Go sources; there are
+      packages, binaries an examples.
+    </p>
+    <h2>Go packages</h2>
+    <p>
+      Currently the following libraries packages are available (import path =>
+      repository).
+    </p>
+    <ul>
+      <li>
+        <b>go.fraixed.es/errors</b> =>
+        <a href="https://github.com/ifraixedes/go-errors" target="_blank"
+          >github.com/ifraixedes/go-errors</a
+        >
+      </li>
+      <li>
+        <b>go.fraixed.es/hmacval</b> =>
+        <a
+          href="https://github.com/ifraixedes/go-hmac-validator"
+          target="_blank"
+          >github.com/ifraixedes/go-hmac-validator</a
+        >
+      </li>
+      <li>
+        <b>go.fraixed.es/rosterssh</b> =>
+        <a href="https://github.com/ifraixedes/go-rosterssh" target="_blank"
+          >github.com/ifraixedes/go-rosterssh</a
+        >
+      </li>
+    </ul>
+    <h2>Go binaries</h2>
+    <p>
+      The following binaries packages are available (install/import path =>
+      repository).
+    </p>
+    <ul>
+      <li>
+        <dl>
+          <dt>Binaries</dt>
+          <dd>
+            <b>go.fraixed.es/onepagestaticsite/cmd/opss</b> =>
+            <a
+              href="https://github.com/ifraixedes/one-page-static-site/tree/master/cmd/opss"
+              target="_blank"
+              >github.com/ifraixedes/one-page-static-site/cmd/opss</a
+            >
+          </dd>
+          <dd>
+            <b>go.fraixed.es/storj/sntools/dbcleaner</b> =>
+            <a
+              href="https://github.com/ifraixedes/storj-storagenode-tools/tree/master/dbcleaner"
+              target="_blank"
+              >github.com/ifraixedes/storj-storagenode-tools/dbcleaner</a
+            >
+          </dd>
+          <dt>Public Packages</dt>
+          <dd>
+            <b>go.fraixed.es/onepagestaticsite</b> =>
+            <a
+              href="https://github.com/ifraixedes/one-page-static-site"
+              target="_blank"
+              >github.com/ifraixedes/one-page-static-site</a
+            >
+          </dd>
+          <dd>
+            <b>go.fraixed.es/storj/sntools</b> =>
+            <a
+              href="https://github.com/ifraixedes/storj-storagenode-tools"
+              target="_blank"
+              >github.com/ifraixedes/storj-storagenode-tools</a
+            >
+          </dd>
+          <dd>
+            <b>go.fraixed.es/rosterssh</b> =>
+            <a href="https://github.com/ifraixedes/go-rosterssh" target="_blank"
+              >github.com/ifraixedes/go-rosterssh</a
+            >
+          </dd>
+        </dl>
+      </li>
+    </ul>
+    <h2>Go examples</h2>
+    <p>
+      This section contain a list implementations which are examples of
+      fictional requirements, proof of concepts, etc.
+    </p>
+    <ul>
+      <li>
+        Go implementation of Payments API designed with
+        <a href="https://www.openapis.org" target="_blank">OpenAPI</a> [<a
+          href="https://github.com/ifraixedes/go-payments-api-example"
+          target="_blank"
+          >repo</a
+        >]
+      </li>
+      <li>
+        Go microservice implementation of a fictional requirements document
+        which uses HTTP and NSQ as a transport [<a
+          href="https://github.com/ifraixedes/go-ms-http-nsq-example"
+          target="_blank"
+          >repo</a
+        >]
+      </li>
+      <li>
+        Simple tool based in a fictional requirements document which uses the Go
+        CSV reader of the standard library [<a
+          href="https://github.com/ifraixedes/go-csv-reader-example"
+          target="_blank"
+          >repo</a
+        >]
+      </li>
+      <li>
+        Some personal interest in knowing a bit more of machine learning and
+        involving Go in it [<a
+          href="https://github.com/ifraixedes/statistics-for-machine-learning-go"
+          target="_blank"
+          >repo</a
+        >]
+      </li>
+      <li>
+        A personal collection of Go runnable snippets for learning purpose [<a
+          href="https://github.com/ifraixedes/go-runnable-snippets"
+          target="_blank"
+          >repo</a
+        >]
+      </li>
+    </ul>
+  </body>
 </html>
